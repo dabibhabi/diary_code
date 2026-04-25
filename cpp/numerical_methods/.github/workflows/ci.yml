@@ -1,0 +1,111 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  format-check:
+    name: clang-format check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install clang-format
+        run: sudo apt-get update && sudo apt-get install -y clang-format
+      - name: Check formatting
+        run: make format-check
+
+  cpp:
+    name: C++ build + checkbox-gated tests
+    runs-on: ubuntu-latest
+    needs: format-check
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install build tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake ninja-build python3
+      - name: Configure
+        run: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+      - name: Build
+        run: cmake --build build --parallel
+      - name: Run runner (informational)
+        run: ./build/numerical_methods || true
+      - name: Run checkbox-gated tests
+        run: scripts/ci_run_checked.sh
+
+  c-only-build:
+    name: C-only standalone build
+    runs-on: ubuntu-latest
+    needs: format-check
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install gcc + cmake
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake ninja-build python3
+      - name: Configure with sanitizers
+        run: cmake -S . -B build-c -G Ninja -DCMAKE_BUILD_TYPE=Debug -DNM_USE_SANITIZERS=ON
+      - name: Build pure-C target
+        run: cmake --build build-c --target test_c_api_pure --parallel
+      - name: Run pure-C test
+        run: ./build-c/test_c_api_pure
+
+  python:
+    name: Python bindings + pytest
+    runs-on: ubuntu-latest
+    needs: cpp
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install build tools and pybind11
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake ninja-build
+          python -m pip install --upgrade pip
+          python -m pip install pybind11 pytest
+      - name: Configure with Python bindings
+        run: |
+          PYBIND11_DIR=$(python -m pybind11 --cmakedir)
+          cmake -S . -B build -G Ninja \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DNM_USE_PYTHON=ON \
+            -Dpybind11_DIR="${PYBIND11_DIR}"
+      - name: Build
+        run: cmake --build build --parallel
+      - name: pytest
+        run: pytest tests/python -v
+
+  cuda:
+    name: CUDA build (best-effort)
+    runs-on: ubuntu-latest
+    needs: format-check
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Try to install CUDA toolkit
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y nvidia-cuda-toolkit cmake ninja-build || \
+            { echo "CUDA toolkit unavailable on runner — skipping"; exit 0; }
+      - name: Configure with CUDA
+        run: |
+          if command -v nvcc >/dev/null 2>&1; then
+            cmake -S . -B build-cuda -G Ninja \
+              -DCMAKE_BUILD_TYPE=Release \
+              -DNM_USE_CUDA=ON
+          else
+            echo "nvcc not on PATH — skipping CUDA build"
+            exit 0
+          fi
+      - name: Build CUDA kernels
+        run: |
+          if [ -f build-cuda/build.ninja ]; then
+            cmake --build build-cuda --parallel
+          fi
