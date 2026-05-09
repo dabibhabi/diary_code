@@ -14,3 +14,7 @@ build/
 .pytest_cache/v/cache/tmp/
 .pytest_cache/v/cache/tmp/h
 __pycache__/
+.obsidian/
+.DS_Store
+.cursor/
+.pytest_cache/

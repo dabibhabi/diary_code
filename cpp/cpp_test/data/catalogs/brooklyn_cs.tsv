@@ -1,0 +1,97 @@
+# Source: https://brooklyncisdept.github.io/brochures/UndergradContent/courses.html
+#         and https://websql.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=CISC.
+# Fetched: 2026-05-09
+# Note: Brooklyn College's CS department uses the CISC. prefix (Computer & Info Science).
+# Credits taken from the CIS Department brochure page; titles cross-checked against
+# the official course inventory.
+course_id	level	title	credits
+CISC 1000	100	Computing: Its Nature, Power and Limits	3
+CISC 1001	100	Computing and Quantitative Reasoning	3
+CISC 1002	100	The Outer Limits of Reasoning	3
+CISC 1003	100	Exploring Robotics	3
+CISC 1030	100	The Internet	3
+CISC 1035	100	Multimedia Production for the World Wide Web	3
+CISC 1050	100	Introduction to Computer Applications	3
+CISC 1060	100	Computing Workshop 1	3
+CISC 1062	100	Computing Workshop 2	3
+CISC 1070	100	Special Topics in Computing	3
+CISC 1072	100	Special Topics in Computing	3
+CISC 1110	100	Introduction to Computing Using C++	4
+CISC 1115	100	Introduction to Computing Using Java	4
+CISC 1150	100	UNIX Shell Programming	2
+CISC 1155	100	Programming in Perl	2
+CISC 1160	100	Visual Programming and Windowing Applications	2
+CISC 1170	100	Java for Programmers	2
+CISC 1180	100	Introduction to C++ for Programmers	2
+CISC 1215	100	Introduction to Programming Using Python	3
+CISC 1341	100	Assembly Language Programming for Microcomputers	3
+CISC 1400	100	Elementary Robotics	3
+CISC 1410	100	Philosophy and Artificial Intelligence	3
+CISC 1530	100	Electronic Commerce	3
+CISC 1580W	100	Seminar in Computer-Assisted Management Games	3
+CISC 1590	100	Management Information Systems	3
+CISC 1595	100	Management of New and Emerging Technologies	3
+CISC 1597	100	New Media and Business	3
+CISC 1600	100	Introduction to Multimedia Computing	3
+CISC 2210	200	Introduction to Discrete Structures	3
+CISC 2531	200	Operations Management	3
+CISC 2532	200	Information Systems Project Management	3
+CISC 2590	200	Foundations of Business Analytics	3
+CISC 2600	200	Music Computing	3
+CISC 2810W	200	Macromolecular Structure and Bioinformatics	3
+CISC 2820W	200	Computers and Ethics	3
+CISC 2830	200	Introduction to Natural Language Processing	3
+CISC 3110	300	Advanced Programming Techniques	4
+CISC 3115	300	Introduction to Modern Programming Techniques	4
+CISC 3120	300	Design and Implementation of Software Applications 1	3
+CISC 3130	300	Data Structures	4
+CISC 3140	300	Design and Implementation of Large-Scale Web Applications	3
+CISC 3141	300	Applied Software Development	3
+CISC 3142	300	Programming Paradigms in C++	3
+CISC 3144	300	Modern JavaScript	3
+CISC 3146	300	Engineering Mobile Software Applications	3
+CISC 3150	300	Object-Oriented Programming	3
+CISC 3160	300	Programming Languages	4
+CISC 3171	300	Introduction to Software Engineering	3
+CISC 3220	300	Analysis of Algorithms	3
+CISC 3225	300	Data Tools and Algorithms	?
+CISC 3230	300	Theoretical Computer Science	3
+CISC 3240	300	Cryptography and Cryptanalysis	3
+CISC 3250	300	Information Theory	3
+CISC 3305	300	Computer Organization	3
+CISC 3310	300	Principles of Computer Architecture	4
+CISC 3315	300	Digital Computer Systems	4
+CISC 3320	300	Operating Systems	3
+CISC 3325	300	Information Security	3
+CISC 3330	300	Foundations of Parallel and Distributed Computing	3
+CISC 3340	300	Computer Networks and Protocols	3
+CISC 3343	300	Telecommunications	3
+CISC 3345	300	Computer Networks	3
+CISC 3350	300	Workstation Programming	3
+CISC 3390	300	Compiler Construction	3
+CISC 3410	300	Artificial Intelligence	3
+CISC 3415	300	Principles of Robotics	3
+CISC 3440	300	Machine Learning	3
+CISC 3610	300	Introduction to Multimedia Programming	3
+CISC 3620	300	Computer Graphics	3
+CISC 3630	300	Multimedia Computing	3
+CISC 3650	300	Human-Computer Interaction	3
+CISC 3660	300	Game Programming	3
+CISC 3665	300	Game Design	3
+CISC 3667	300	Game Design and Development	4
+CISC 3800	300	Advanced Personal Computer Techniques for Business Applications	3
+CISC 3810	300	Database Systems	3
+CISC 3820	300	Introduction to Modeling and Simulation	3
+CISC 4331	400	System and Network Administration	3
+CISC 4335	400	Parallel and Distributed Computing	3
+CISC 4610	400	Multimedia Databases	3
+CISC 4800	400	Special Topics in Computer Science	3
+CISC 4900	400	Independent and Group Projects I	3
+CISC 4905	400	Independent and Group Projects II	3
+CISC 4920	400	Programming Practicum	2
+CISC 4930	400	Advanced Computing Topics	3
+CISC 4935	400	Advanced Computing Topics	3
+CISC 4940	400	Seminar in Theoretical Aspects of Information Science I	3
+CISC 4945	400	Seminar in Theoretical Aspects of Information Science II	3
+CISC 4950	400	Seminar in Special Topics I	3
+CISC 4955	400	Seminar in Special Topics II	3

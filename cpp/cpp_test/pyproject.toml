@@ -1,0 +1,78 @@
+[build-system]
+requires = ["scikit-build-core>=0.10", "nanobind>=2.0"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "cuny_sms"
+version = "0.0.1"
+description = "CUNY Student Management System — C++/Python interop demo"
+readme = "DESIGN.md"
+requires-python = ">=3.11"
+authors = [{ name = "CUNY SMS authors" }]
+classifiers = [
+    "Programming Language :: C++",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov",
+    "hypothesis>=6.100",
+    "ruff>=0.6",
+    "mypy>=1.11",
+    "jupyterlab",
+    "matplotlib",
+]
+
+[tool.scikit-build]
+cmake.version = ">=3.20"
+cmake.build-type = "Release"
+wheel.packages = ["python/cuny_sms"]
+wheel.expand-macos-universal-tags = false
+sdist.exclude = ["build/", "*.so", "*.pyd"]
+
+[tool.scikit-build.cmake.define]
+CUNY_BUILD_PYTHON = "ON"
+CUNY_BUILD_TESTS = "OFF"
+
+# ---------------------------------------------------------------------------
+# Tooling
+# ---------------------------------------------------------------------------
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["build", "dist", "*.egg-info"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "A", "C4", "T20", "SIM", "RUF"]
+ignore = ["E501"]  # ruff format handles line length
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_unused_configs = true
+disallow_untyped_decorators = true
+files = ["python"]
+
+[[tool.mypy.overrides]]
+module = ["cuny_sms._core"]
+ignore_missing_imports = true   # stubs generated post-build; see docs/interop/24-
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+testpaths = ["python/tests", "tests"]
+filterwarnings = [
+    "error",
+    "ignore::DeprecationWarning:google.*",
+]

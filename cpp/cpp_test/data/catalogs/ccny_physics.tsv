@@ -1,0 +1,18 @@
+# PARTIAL: Source URL https://www.ccny.cuny.edu/physics/ugcourses returned HTTP 403 and
+# https://ccny-undergraduate.catalog.cuny.edu/departments/PHY-CTY/courses is JS-rendered.
+# Fetched: 2026-05-09
+# Course list and credits compiled from CCNY Physics syllabi pages and web searches that
+# returned hits against ccny-undergraduate.catalog.cuny.edu/courses/<id>.
+# Credits are based on the syllabi text ("N hr./wk.; N cr"); marked "?" where unverified.
+course_id	level	title	credits
+PHYS 20300	200	General Physics I (algebra-based)	3
+PHYS 20400	200	General Physics II (algebra-based)	3
+PHYS 20700	200	University Physics I (calculus-based)	4
+PHYS 20800	200	University Physics II (calculus-based)	4
+PHYS 32300	300	Modern Physics for Engineers	?
+PHYS 35100	300	Mechanics	4
+PHYS 35200	300	Wave Motion and Optics	?
+PHYS 35300	300	Electricity and Magnetism I	3
+PHYS 45100	400	Thermodynamics and Statistical Physics	3
+PHYS 45200	400	Optics	?
+PHYS 45500	400	Quantum Mechanics	?

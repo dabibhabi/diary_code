@@ -1,0 +1,75 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": { "major": 3, "minor": 20, "patch": 0 },
+  "configurePresets": [
+    {
+      "name": "dev",
+      "displayName": "Debug + ASan + UBSan",
+      "binaryDir": "${sourceDir}/build/dev",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CUNY_BUILD_TESTS": "ON",
+        "CUNY_ENABLE_SANITIZERS": "ON",
+        "CUNY_BUILD_PYTHON": "OFF"
+      }
+    },
+    {
+      "name": "release",
+      "displayName": "Release",
+      "binaryDir": "${sourceDir}/build/release",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CUNY_BUILD_TESTS": "ON",
+        "CUNY_ENABLE_SANITIZERS": "OFF",
+        "CUNY_BUILD_PYTHON": "OFF"
+      }
+    },
+    {
+      "name": "tsan",
+      "displayName": "ThreadSanitizer",
+      "binaryDir": "${sourceDir}/build/tsan",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+        "CMAKE_CXX_FLAGS": "-fsanitize=thread -fno-omit-frame-pointer",
+        "CMAKE_EXE_LINKER_FLAGS": "-fsanitize=thread",
+        "CUNY_BUILD_TESTS": "ON",
+        "CUNY_ENABLE_SANITIZERS": "OFF",
+        "CUNY_BUILD_PYTHON": "OFF"
+      }
+    },
+    {
+      "name": "python",
+      "displayName": "Python module build",
+      "binaryDir": "${sourceDir}/build/python",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CUNY_BUILD_TESTS": "OFF",
+        "CUNY_ENABLE_SANITIZERS": "OFF",
+        "CUNY_BUILD_PYTHON": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    { "name": "dev",     "configurePreset": "dev" },
+    { "name": "release", "configurePreset": "release" },
+    { "name": "tsan",    "configurePreset": "tsan" },
+    { "name": "python",  "configurePreset": "python" }
+  ],
+  "testPresets": [
+    {
+      "name": "dev",
+      "configurePreset": "dev",
+      "output": { "outputOnFailure": true },
+      "execution": { "noTestsAction": "error", "stopOnFailure": false }
+    },
+    {
+      "name": "release",
+      "configurePreset": "release",
+      "output": { "outputOnFailure": true }
+    }
+  ]
+}

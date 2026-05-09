@@ -1,0 +1,18 @@
+# Source: https://math.sci.ccny.cuny.edu/courses/
+# Fetched: 2026-05-09
+# Note: CCNY does not have a separate Statistics department; statistics courses are offered
+# through the Mathematics Department. This file lists Math department courses with
+# Statistics, STAT, Probability, or Stochastic in the title.
+# Credits are "?" because the source page did not display them.
+course_id	level	title	credits
+MATH 17300	100	Introduction to Probability and Statistics	?
+MATH 17700	100	Introduction to Biostatistics	?
+MATH 20900	200	Elements of Calculus and Statistics	?
+MATH 37500	300	Elements of Probability Theory	?
+MATH 37600	300	Mathematical Statistics	?
+MATH 37700	300	Applied Statistics and Probability	?
+MATH 41300	400	Topics in Probability and Statistics	?
+MATH 41303	400	Topics in Probability and Statistics	?
+MATH 47700	400	Stochastic Processes I	?
+MATH 47800	400	Advanced Mathematical Statistics	?
+MATH 48200	400	Stochastic Calculus in Financial Engineering	?

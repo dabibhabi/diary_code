@@ -1,0 +1,55 @@
+# Source: https://hunter.catalog.acalog.com/content.php?catoid=48&navoid=15946&print=&expand=1
+# Fetched: 2026-05-09
+# Hunter's Physics and Astronomy department uses both PHYS and ASTRO prefixes.
+# This file lists ALL Physics & Astronomy undergraduate courses including ASTRO-prefixed
+# astronomy courses (the assignment says "physics" department so all dept courses are
+# included). Credits use a fractional ".5" where the source explicitly listed it
+# (e.g. PHYS 11000 = 4.5 cr, lecture+lab+recitation combined).
+course_id	level	title	credits
+ASTRO 10000	100	Basic Concepts in Astronomy	3
+ASTRO 10100	100	Basic Concepts of Astronomy with Laboratory Exercises	4
+ASTRO 10200	100	Laboratory Explorations in Astronomy	3
+ASTRO 10300	100	Laboratory Explorations in Astronomy	3
+ASTRO 10700	100	Laboratory Exercises in Astronomy	1
+ASTRO 18100	100	Astronomy of the Solar System	?
+ASTRO 18200	100	Stellar Astronomy	?
+PHYS 10000	100	Basic Concepts of Physics	3
+PHYS 10100	100	Basic Concepts of Physics with Laboratory Exercises	3
+PHYS 11000	100	General Physics: Introductory Course in Mechanics, Heat, and Sound	4.5
+PHYS 11100	100	General Physics: Introductory Course in Mechanics, Heat, and Sound	5.5
+PHYS 12000	100	General Physics: Introductory Course in Electricity and Magnetism, Light, and Atomic Physics	4.5
+PHYS 12100	100	General Physics: Introductory Course in Electricity and Magnetism, Light, and Atomic Physics	5.5
+PHYS 19000	100	Tutorial in Mathematical Physics	2
+PHYS 20400	200	Electrical Circuits and Laboratory	4
+PHYS 22100	200	Electronics	4
+PHYS 22200	200	Electronics Laboratory	2
+PHYS 23000	200	Classical Physics Laboratory	2
+PHYS 23500	200	Modern Physics Laboratory	2
+PHYS 24000	200	Physics of Biological Systems	?
+PHYS 24500	200	Computer Applications in Physical Sciences	?
+PHYS 28000	200	Astrophysics	?
+PHYS 30100	300	Theoretical Physics	4
+PHYS 31100	300	Introduction to Fluid Mechanics	3
+PHYS 33000	300	Atomic and Nuclear Physics	4
+PHYS 33400	300	Intermediate Electricity and Magnetism	4
+PHYS 33500	300	Intermediate Mechanics	4
+PHYS 33600	300	Thermodynamics and Statistical Mechanics	4
+PHYS 34200	300	Optics	3
+PHYS 36000	300	Atomic and Nuclear Physics for Engineers	?
+PHYS 36400	300	Electricity and Magnetism for Engineers	?
+PHYS 36500	300	Analytical Mechanics	?
+PHYS 38500	300	Numerical Methods I	3
+PHYS 39900	300	Senior Thesis (W)	3
+PHYS 40300	400	Topics in Modern Physics	?
+PHYS 41100	400	Theoretical Mechanics	3
+PHYS 41500	400	Electromagnetic Theory	3
+PHYS 41600	400	Electromagnetic Theory II	3
+PHYS 42000	400	Introduction to Biophysics	4
+PHYS 42400	400	Plasma Physics	3
+PHYS 42500	400	Quantum Theory	3
+PHYS 42700	400	Intermediate Physics Laboratory	2
+PHYS 42800	400	Photonics and Laboratory	2
+PHYS 44500	400	Solid State Physics	3
+PHYS 45300	400	Introduction to Research	?
+PHYS 45400	400	Introduction to Research	?
+PHYS 48500	400	Numerical Methods II	3

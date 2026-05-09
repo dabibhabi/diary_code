@@ -1,0 +1,68 @@
+# Source: https://websql.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=MATH.
+#         and https://www.brooklyn.edu/wp-content/uploads/2023-2024-Undergraduate-Bulletin.pdf
+# Fetched: 2026-05-09
+# Titles from the course inventory; credits parsed from the 2023-24 Undergraduate Bulletin.
+course_id	level	title	credits
+MATH 1006	100	College Algebra	3
+MATH 1010	100	Problem Solving for College Mathematics	1
+MATH 1011	100	Precalculus Mathematics	3
+MATH 1012	100	Precalculus with Recitation	3
+MATH 1021	100	Precalculus Mathematics A	2
+MATH 1026	100	Precalculus Mathematics B	2
+MATH 1031	100	Introduction to Mathematics for the Social Sciences and Business	2
+MATH 1101	100	Introduction to Mathematical Thinking	3
+MATH 1102	100	Elementary Number Theory	3
+MATH 1201	100	Calculus I	4
+MATH 1206	100	Calculus II	4
+MATH 1211	100	Infinite Series	1
+MATH 1231	100	Applied Calculus for Economics, Business and Finance	4
+MATH 1301	100	Basic Concepts of Geometry	3
+MATH 1311	100	Thinking Mathematically	3
+MATH 1401	100	Elementary Mathematics from an Advanced Standpoint	4
+MATH 1406	100	Mathematics in Education	2
+MATH 1501	100	Elements of Statistics with Applications	3
+MATH 1531	100	Introduction to Biostatistics	3
+MATH 1601	100	Modern Mathematics for the Social Sciences	3
+MATH 1701	100	Symbolic Manipulation in Calculus II	?
+MATH 1711	100	Mathematical Fundamentals of Computer Graphics I	4
+MATH 1716	100	Mathematical Fundamentals of Computer Graphics II	4
+MATH 1801	100	Mathematics of Non-Western Civilizations	3
+MATH 2001	200	Transition to Advanced Mathematics	3
+MATH 2004	200	Intermediate Independent Study	?
+MATH 2006	200	Special Topics in Mathematics	1
+MATH 2011W	200	History of Mathematics	3
+MATH 2101	200	Linear Algebra I	3
+MATH 2201	200	Multivariable Calculus	4
+MATH 2206	200	Introduction to Differential Equations	4
+MATH 2208	200	Actuarial Mathematics I	1
+MATH 2501	200	Elementary Probability and Statistics	3
+MATH 2601	200	Introduction to Financial Mathematics	4
+MATH 2701	200	Symbolic Manipulation in Multivariate Calculus	1
+MATH 2706	200	Chaos and Structural Stability in One-Dimensional Dynamics	4
+MATH 3101	300	Abstract Algebra I	3
+MATH 3106	300	Theory of Numbers	3
+MATH 3107	300	Cryptography and Cryptanalysis	3
+MATH 3111	300	Graph Theory and Applications	4
+MATH 3202	300	Mathematical Modeling and Simulation	4
+MATH 3501	300	Probability and Statistics I	3
+MATH 3601	300	Investment Science	4
+MATH 3606	300	Mathematics of Operations Research	?
+MATH 3801	300	Introduction to Long-Term Actuarial Mathematics	4
+MATH 3802	300	Introduction to Short-Term Actuarial Mathematics	4
+MATH 4101	400	Linear Algebra II	4
+MATH 4106	400	Abstract Algebra II	4
+MATH 4201	400	Advanced Calculus I	4
+MATH 4206	400	Advanced Calculus II	4
+MATH 4211	400	Partial Differential Equations	4
+MATH 4216	400	Introduction to Functions of a Complex Variable	4
+MATH 4302	400	Foundations of Geometry	4
+MATH 4306	400	Introduction to Topology	4
+MATH 4401	400	Secondary School Mathematics from an Advanced Viewpoint	4
+MATH 4406	400	Seminar in Problem Solving and Selected Topics	1
+MATH 4501	400	Probability and Statistics II	4
+MATH 4506	400	Time Series	4
+MATH 4511	400	Probability	4
+MATH 4521	400	Actuarial Mathematics II	?
+MATH 4531	400	Applied Intermediate Statistics	3
+MATH 4601	400	Financial Instruments and Their Pricing	4
+MATH 4701	400	Numerical Analysis	4

@@ -1,0 +1,16 @@
+# Source: https://websql.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=MATH.
+#         and https://www.brooklyn.edu/wp-content/uploads/2023-2024-Undergraduate-Bulletin.pdf
+# Fetched: 2026-05-09
+# Note: Brooklyn College does not have a separate Statistics department; statistics
+# courses are offered through the Mathematics Department. This file lists Math
+# courses with Statistics, Probability, Stochastic, Biostatistics, or Time Series
+# in the title (or otherwise stats-focused).
+course_id	level	title	credits
+MATH 1501	100	Elements of Statistics with Applications	3
+MATH 1531	100	Introduction to Biostatistics	3
+MATH 2501	200	Elementary Probability and Statistics	3
+MATH 3501	300	Probability and Statistics I	3
+MATH 4501	400	Probability and Statistics II	4
+MATH 4506	400	Time Series	4
+MATH 4511	400	Probability	4
+MATH 4531	400	Applied Intermediate Statistics	3

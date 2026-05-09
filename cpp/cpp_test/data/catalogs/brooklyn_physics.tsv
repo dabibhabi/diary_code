@@ -1,0 +1,50 @@
+# Source: https://websql.brooklyn.cuny.edu/courses/acad/courses_list.jsp?div=U&disc=PHYS.
+#         and https://www.brooklyn.edu/wp-content/uploads/2023-2024-Undergraduate-Bulletin.pdf
+# Fetched: 2026-05-09
+# Titles from inventory; credits parsed from the 2023-24 Undergraduate Bulletin.
+# A "?" in the credits column means the bulletin did not list a clean credit value
+# (mostly true for the inactive courses at the bottom of the file).
+course_id	level	title	credits
+PHYS 1005	100	Physics: The Simple Laws That Govern the Universe	3
+PHYS 1010	100	Energy in a Technological Society	?
+PHYS 1020	100	Survey of the Universe	?
+PHYS 1040	100	The Making of the Atomic Bomb	3
+PHYS 1050	100	Introduction to Astronomy	3
+PHYS 1055	100	The Search for Life in the Universe	3
+PHYS 1060	100	A History of Ideas in Physics	?
+PHYS 1070	100	Cosmology	3
+PHYS 1080	100	Energy Use and Climate Change	3
+PHYS 1085	100	Myth and Fact	?
+PHYS 1090	100	Space-Time, Gravity, and the Quantum: The Role of Einstein in the Birth of Modern Physics	3
+PHYS 1100	100	General Physics I	5
+PHYS 1111	100	General Physics IA	3
+PHYS 1112	100	General Physics IB	3
+PHYS 1150	100	Calculus-Based General Physics I	5
+PHYS 1190	100	General Physics and the Computer	4
+PHYS 2100	200	General Physics II	5
+PHYS 2150	200	Calculus-Based General Physics II	5
+PHYS 3100	300	Introduction to Modern Physics	3
+PHYS 3200	300	Mechanics	4
+PHYS 3300	300	Electric Circuits	4
+PHYS 3350	300	Electronics	?
+PHYS 3400	300	Thermodynamics	3
+PHYS 3500	300	Astrophysics and Cosmology	3
+PHYS 3550	300	Physics in Medicine	3
+PHYS 3600	300	Historical and Biographical Studies in Physics	2
+PHYS 3650	300	Issues in Physics and Society	2
+PHYS 3700	300	Advanced Modern Physics	3
+PHYS 3740	300	Topics in Condensed Matter Physics	3
+PHYS 3760	300	Topics in Nuclear Physics	?
+PHYS 3800	300	Special Topics in Physics	3
+PHYS 3900	300	Electrical Measurements Laboratory	2
+PHYS 3950	300	Modern Physics Laboratory	2
+PHYS 3970	300	Techniques of Experimental Research	?
+PHYS 4000	400	Introduction to Theoretical Physics	4
+PHYS 4100	400	Analytical Mechanics	3
+PHYS 4200	400	Electromagnetic Theory	3
+PHYS 4300	400	Atomic Physics and Quantum Mechanics I	3
+PHYS 4350	400	Atomic Physics and Quantum Mechanics II	3
+PHYS 4400	400	Thermodynamics and Statistical Mechanics	3
+PHYS 4500	400	Solid-state Physics	3
+PHYS 4900W	400	Advanced Laboratory I	2
+PHYS 4950	400	Advanced Laboratory II	?

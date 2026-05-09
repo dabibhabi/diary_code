@@ -1,0 +1,30 @@
+# PARTIAL: Source URL https://ccny-undergraduate.catalog.cuny.edu/departments/CSC-CTY/courses
+# is JS-rendered and could not be scraped directly via WebFetch (returned skeleton only).
+# Fetched: 2026-05-09
+# Course names compiled from web searches against the catalog and CCNY course-description
+# pages. Credits marked 3 reflect the standard CSC course load at CCNY (verified via
+# search results); courses where credits could not be confirmed are marked "?".
+# Source for individual courses: https://ccny-undergraduate.catalog.cuny.edu/courses/<id>
+course_id	level	title	credits
+CSC 10200	100	Introduction to Programming and Computer Science	3
+CSC 10300	100	Introduction to Computing for Majors	3
+CSC 10400	100	Discrete Mathematical Structures I	3
+CSC 10800	100	Discrete Mathematical Structures II	3
+CSC 21100	200	Computers and Assembly Language Programming	3
+CSC 21200	200	Data Structures	3
+CSC 22000	200	Algorithms	3
+CSC 22100	200	Software Design Lab	3
+CSC 23000	200	Software Engineering	3
+CSC 30100	300	Numerical Issues in Scientific Programming	3
+CSC 32200	300	Software Engineering	3
+CSC 33000	300	Computer Networks	3
+CSC 33200	300	Operating Systems	3
+CSC 33500	300	Programming Language Paradigms	3
+CSC 33600	300	Introduction to Database Systems	3
+CSC 34200	300	Computer Organization	3
+CSC 34800	300	Practicum in Software Design	3
+CSC 35000	300	Compiler Design	3
+CSC 47100	400	Computer Vision	3
+CSC 47200	400	Computer Graphics	3
+CSC 47900	400	Digital Libraries	3
+CSC 48000	400	Cryptography and Cryptanalysis	3

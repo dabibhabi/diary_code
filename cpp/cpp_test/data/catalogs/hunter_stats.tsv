@@ -1,0 +1,21 @@
+# Source: https://hunter.catalog.acalog.com/content.php?catoid=48&navoid=15944&expand=1
+# Fetched: 2026-05-09
+# Hunter's Mathematics & Statistics department maintains separate STAT-prefixed courses.
+course_id	level	title	credits
+STAT 11000	100	Selected Topics in Elementary Probability and Statistics	3
+STAT 11300	100	Elementary Probability and Statistics	3
+STAT 21200	200	Discrete Probability	3
+STAT 21300	200	Introduction to Applied Statistics	3
+STAT 21400	200	Data Analysis Using Statistical Software	3
+STAT 22000	200	Statistical Analysis in Forensics	3
+STAT 29500	200	Intermediate Topics in Statistics	3
+STAT 31100	300	Probability Theory	3
+STAT 31200	300	Stochastic Processes	3
+STAT 31300	300	Introduction to Mathematical Statistics	3
+STAT 31900	300	Bayesian Statistical Inference in the Sciences	3
+STAT 35100	300	Advanced Biometrics	3
+STAT 39100	300	Independent Study	1
+STAT 39200	300	Independent Study	2
+STAT 39300	300	Independent Study	3
+STAT 39500	300	Advanced Topics in Statistics	3
+STAT 48600	400	Modeling and Visualization	3

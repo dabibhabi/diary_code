@@ -1,0 +1,54 @@
+# Source: https://hunter.catalog.acalog.com/content.php?catoid=48&navoid=15944&expand=1
+# Fetched: 2026-05-09
+# Hunter's Mathematics & Statistics department uses MATH and STAT prefixes.
+# This file contains only MATH-prefix courses; STAT courses are in hunter_stats.tsv.
+course_id	level	title	credits
+MATH 101EN	100	Algebra for College Students - Enhanced	3
+MATH 10000	100	Basic Structures of Mathematics	3
+MATH 10100	100	Algebra for College Students	3
+MATH 10150	100	Mastery of Symbolic Computation	1
+MATH 10200	100	Mathematics and Everyday Life	3
+MATH 10400	100	Mathematics for Elementary Education I	3
+MATH 10500	100	Mathematics for Elementary Education II	3
+MATH 11000	100	Topics in the Mathematical Sciences	3
+MATH 11100	100	Matrices, Vectors and Linear Programming	3
+MATH 12400	100	College Algebra and Trigonometry	4
+MATH 12500	100	Precalculus	4
+MATH 12550	100	Precalculus with Workshop	4
+MATH 12600	100	Precalculus Technology Laboratory	1
+MATH 14000	100	Mathematical Reasoning Workshop	1
+MATH 15000	100	Calculus I	4
+MATH 15200	100	Calculus for Life and Social Sciences	4
+MATH 15400	100	An Introduction to Symbolic Computation	1
+MATH 15500	100	Calculus II	4
+MATH 15600	100	Introduction to Mathematical Proof Workshop	1
+MATH 16000	100	Matrix Algebra	3
+MATH 25000	200	Calculus III	4
+MATH 25400	200	Ordinary Differential Equations	3
+MATH 25500	200	Vector Analysis	3
+MATH 26000	200	Linear Algebra	4
+MATH 27500	200	Symbolic Logic	3
+MATH 29500	200	Intermediate Topics in Mathematics	3
+MATH 30100	300	Mathematical Methods for the Physical Sciences	3
+MATH 31100	300	Abstract Algebra I	3
+MATH 31200	300	Abstract Algebra II	3
+MATH 31300	300	Theory of Numbers	3
+MATH 33100	300	Geometries	3
+MATH 34000	300	Topology	3
+MATH 35100	300	Mathematical Analysis I	3
+MATH 35200	300	Mathematical Analysis II	3
+MATH 35300	300	Introduction To Complex Variables	3
+MATH 35400	300	Dynamical Systems and Chaos	3
+MATH 37000	300	Mathematical Logic	3
+MATH 37100	300	Fundamental Concepts of Modern Mathematics	3
+MATH 37200	300	Logic and Computers	3
+MATH 37600	300	Philosophy of Mathematics	3
+MATH 37700	300	Non-classical Logic	3
+MATH 38500	300	Numerical Methods I	3
+MATH 39100	300	Independent Study in Mathematics	1
+MATH 39200	300	Independent Study in Mathematics	2
+MATH 39300	300	Independent Study in Mathematics	3
+MATH 39500	300	Advanced Topics in Mathematics	3
+MATH 45400	400	Calculus on Manifolds	3
+MATH 48500	400	Numerical Methods II	3
+MATH 49000	400	Honors Seminar	3
